@@ -22,12 +22,9 @@
   <link href="css/style.css" rel="stylesheet" />
   <link href="css/responsive.css" rel="stylesheet" />
 </head>
-
 <body>
 
-
   <div class="hero_area">
-
     <div class="hero_bg_box">
       <div class="bg_img_box">
         <img src="images/hero-bg.png" alt="">
@@ -37,7 +34,7 @@
     <header class="header_section">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.html">
+          <a data-translate="Ratm_Alaibtikar" class="navbar-brand" href="index.html">
             <span>
               Ratm Alaibtikar
             </span>
@@ -62,19 +59,22 @@
               <li class="nav-item">
                 <a data-translate="WhyUs" class="nav-link" href="#why_us">Why Us</a>
               </li>
-              <!-- <li class="nav-item">
-                <a class="nav-link" href="#"> <i class="fa fa-user" aria-hidden="true"></i> Login</a>
-              </li> -->
-              <form class="form-inline">
-                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
-                  <i class="fa fa-search" aria-hidden="true"></i>
-                </button>
-              </form>
               <li class="nav-item">
-                <select>
-                  <option value="EN_US">English</option>
-                  <option value="AR">العربية</option>
-                </select>
+                <a data-translate="our_valuess" class="nav-link" href="#our_core_values">Our Values</a>
+              </li>
+              <li class="nav-item custom-select">
+                <div class="selected-option">
+                    <img id="selected-flag" src="images/Us-flag.png" alt="Flag">
+                    <span id="selected-lang">English</span>
+                </div>
+                <ul class="options">
+                    <li onclick="switchLanguage('EN_US')">
+                        <img src="images/Us-flag.png" alt="English Flag"> English
+                    </li>
+                    <li onclick="switchLanguage('AR')">
+                        <img src="images/arabic-flag.png" alt="Arabic Flag"> العربية
+                    </li>
+                </ul>
               </li>
             </ul>
           </div>
@@ -89,6 +89,10 @@
               <div class="row">
                 <div class="col-md-6 ">
                   <div class="detail-box">
+                    <h2 class="detail-box__text" data-translate="welcome_text">
+                      Welcome to the World of Creativity and 
+                      Innovation!
+                    </h1>
                     <h1 data-translate="digital_marketing">
                       Digital Marketing <br>
                       & Advertising
@@ -116,6 +120,10 @@
               <div class="row">
                 <div class="col-md-6 ">
                   <div class="detail-box">
+                    <h2 class="detail-box__text" data-translate="welcome_text">
+                      Welcome to the World of Creativity and 
+                      Innovation!
+                    </h1>
                     <h1 data-translate="branding">
                       Branding <br>
                       & Visual Identity
@@ -144,6 +152,10 @@
               <div class="row">
                 <div class="col-md-6 ">
                   <div class="detail-box">
+                    <h2 class="detail-box__text" data-translate="welcome_text">
+                      Welcome to the World of Creativity and 
+                      Innovation!
+                    </h1>
                     <h1 data-translate="digital_platform">
                       Digital Platform <br>
                       Development
@@ -232,7 +244,7 @@
                 <img src="images/s3.png" alt="">
               </div>
               <div class="detail-box">
-                <h5 data-translate="event_management">
+                <h5 data-translate="event_management_text">
                   Event Management & Public Relations
                 </h5>
                 <p data-translate="event_desc">
@@ -266,6 +278,15 @@
           creative design, and digital platform development, we
           help you achieve your goals in innovative ways.
         </p>
+        <p data-translate="about_description">
+          Ratm Alaibtikar for Digital Solutions is an innovative
+          initiative specializing in comprehensive digital services
+          that blend creativity and technology. We help businesses
+          and individuals build their digital identity and enhance
+          their market presence. Our passionate and professional
+          team is dedicated to delivering tailored solutions that
+          meet our clients' ambitions.
+        </p>
       </div>
       <div class="row">
         <div class="col-md-6 ">
@@ -281,7 +302,7 @@
             <p data-translate="marketing_solutions">
               ✔ Comprehensive Marketing Solutions to enhance your brand visibility
             </p>
-            <p data-translate="creativity">
+            <p data-translate="about_creativity">
               ✔ Limitless Creativity in design and visual identity
             </p>
             <p data-translate="tech_advancements">
@@ -312,71 +333,18 @@
       </div>
       <div class="why_container">
         <div class="box">
-            <div class="img-box">
-                <img src="images/w1.png" alt="">
-            </div>
-            <div class="detail-box">
-                <h5 data-translate="marketing_solutions">
-                    Comprehensive Marketing Solutions
-                </h5>
-                <p data-translate="marketing_solutions_desc">
-                    Enhance your brand visibility with our limitless creativity in design and visual identity. 
-                    We utilize cutting-edge technologies to build outstanding websites and applications, 
-                    ensuring data-driven strategies for sustainable success. Our event management and 
-                    public relations services leave a lasting impression.
-                </p>
-            </div>
-        </div>
-        <div class="box">
-            <div class="img-box">
-                <img src="images/w2.png" alt="">
-            </div>
-            <div class="detail-box">
-                <h5 data-translate="creativity_tech">
-                    Unleashing Limitless Creativity and Cutting-Edge Technology
-                </h5>
-                <p data-translate="creativity_tech_desc">
-                    At Ratm Alaibtikar for Digital Solutions, we believe that creativity knows no bounds. 
-                    Our team of talented designers is dedicated to crafting unique and captivating visual 
-                    identities that resonate with your brand's essence. We understand that a strong visual 
-                    presence is crucial for standing out in today's competitive market, and we leverage 
-                    our limitless creativity to bring your vision to life.
-                </p>
-            </div>
-        </div>
-        <div class="box">
-            <div class="img-box">
-                <img src="images/w3.png" alt="">
-            </div>
-            <div class="detail-box">
-                <h5 data-translate="data_strategies_events">
-                    Empowering Success Through Data-Driven Strategies and Memorable Events
-                </h5>
-                <p data-translate="data_strategies_events_desc">
-                    At Ratm Alaibtikar for Digital Solutions, we understand that sustainable success 
-                    is built on informed decision-making. Our data-driven strategies are designed to 
-                    provide you with actionable insights that guide your business towards growth and resilience. 
-                    By analyzing market trends and consumer behavior, we help you make strategic choices 
-                    that not only enhance your brand's visibility but also ensure long-term success in 
-                    a dynamic marketplace.
-                </p>
-            </div>
-        </div>
-    </div>
-    
-      <!-- <div class="why_container">
-        <div class="box">
           <div class="img-box">
             <img src="images/w1.png" alt="">
           </div>
           <div class="detail-box">
-            <h5>
+            <h5 data-translate="marketing_solutions">
               Comprehensive Marketing Solutions
             </h5>
-            <p>
-              Enhance your brand visibility with our limitless creativity in design and visual identity. We utilize
-              cutting-edge technologies to build outstanding websites and applications, ensuring data-driven strategies
-              for sustainable success. Our event management and public relations services leave a lasting impression.
+            <p data-translate="marketing_solutions_desc">
+              Enhance your brand visibility with our limitless creativity in design and visual identity.
+              We utilize cutting-edge technologies to build outstanding websites and applications,
+              ensuring data-driven strategies for sustainable success. Our event management and
+              public relations services leave a lasting impression.
             </p>
           </div>
         </div>
@@ -385,14 +353,15 @@
             <img src="images/w2.png" alt="">
           </div>
           <div class="detail-box">
-            <h5>
+            <h5 data-translate="creativity_tech">
               Unleashing Limitless Creativity and Cutting-Edge Technology
             </h5>
-            <p>
-              At Ratm Alaibtikar for Digital Solutions, we believe that creativity knows no bounds. Our team of talented
-              designers is dedicated to crafting unique and captivating visual identities that resonate with your
-              brand's essence. We understand that a strong visual presence is crucial for standing out in today's
-              competitive market, and we leverage our limitless creativity to bring your vision to life.
+            <p data-translate="creativity_tech_desc">
+              At Ratm Alaibtikar for Digital Solutions, we believe that creativity knows no bounds.
+              Our team of talented designers is dedicated to crafting unique and captivating visual
+              identities that resonate with your brand's essence. We understand that a strong visual
+              presence is crucial for standing out in today's competitive market, and we leverage
+              our limitless creativity to bring your vision to life.
             </p>
           </div>
         </div>
@@ -401,23 +370,78 @@
             <img src="images/w3.png" alt="">
           </div>
           <div class="detail-box">
-            <h5>
+            <h5 data-translate="data_strategies_events">
               Empowering Success Through Data-Driven Strategies and Memorable Events
             </h5>
-            <p>
-              At Ratm Alaibtikar for Digital Solutions, we understand that sustainable success is built on informed
-              decision-making. Our data-driven strategies are designed to provide you with actionable insights that
-              guide your business towards growth and resilience. By analyzing market trends and consumer behavior, we
-              help you make strategic choices that not only enhance your brand's visibility but also ensure long-term
-              success in a dynamic marketplace.
+            <p data-translate="data_strategies_events_desc">
+              At Ratm Alaibtikar for Digital Solutions, we understand that sustainable success
+              is built on informed decision-making. Our data-driven strategies are designed to
+              provide you with actionable insights that guide your business towards growth and resilience.
+              By analyzing market trends and consumer behavior, we help you make strategic choices
+              that not only enhance your brand's visibility but also ensure long-term success in
+              a dynamic marketplace.
             </p>
           </div>
         </div>
-      </div> -->
+      </div>
       <div class="btn-box">
         <a data-translate="read_more" href="">
           Read More
         </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="our_core-values layout_padding" id="our_core_values">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2 data-translate="our_core_values">
+          Our Core <span>Values</span>
+        </h2>
+      </div>
+      <div class="why_container">
+        <div class="box">
+          <div class="detail-box">
+            <h5 data-translate="creativity">
+              Creativity
+            </h5>
+            <p data-translate="creativity_desc">
+              Thinking outside the box to deliver innovative solutions
+            </p>
+          </div>
+          <div class="detail-box">
+            <h5 data-translate="quality">
+              Quality
+            </h5>
+            <p data-translate="quality_desc">
+              Providing world-class services
+            </p>
+          </div>
+          <div class="detail-box">
+            <h5 data-translate="innovation">
+              Innovation
+            </h5>
+            <p data-translate="innovation_desc">
+              Utilizing the latest digital technologies
+            </p>
+          </div>
+          <div class="detail-box">
+            <h5 data-translate="partnership">
+              Partnership
+            </h5>
+            <p data-translate="partnership_desc">
+              Building long-term, trust-based relationships
+            </p>
+          </div>
+          <div class="detail-box">
+            <h5 data-translate="professionalism">
+              Professionalism
+            </h5>
+            <p data-translate="professionalism_desc">
+              Focusing on effective strategies and measurable results
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -429,28 +453,28 @@
           <div class="info_contact">
             <h4 data-translate="address">
               Address
-          </h4>
-          <div class="contact_link_box">
+            </h4>
+            <div class="contact_link_box">
               <a href="">
-                  <i class="fa fa-map-marker" aria-hidden="true"></i>
-                  <span data-translate="location">
-                      Location
-                  </span>
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span data-translate="location">
+                  Location
+                </span>
               </a>
               <a href="">
-                  <i class="fa fa-phone" aria-hidden="true"></i>
-                  <span data-translate="call">
-                      Call +01 1234567890
-                  </span>
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span data-translate="call">
+                  Call +01 1234567890
+                </span>
               </a>
               <a href="">
-                  <i class="fa fa-envelope" aria-hidden="true"></i>
-                  <span data-translate="email">
-                      ratmalaibtikar@gmail.com
-                  </span>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span data-translate="email">
+                  ratmalaibtikar@gmail.com
+                </span>
               </a>
-          </div>
-          
+            </div>
+
           </div>
           <div class="info_social">
             <a href="">
@@ -470,44 +494,51 @@
         <div class="col-md-6 col-lg-3 info_col">
           <div class="info_detail">
             <h4 data-translate="info">
-              Info
-          </h4>
-          <p data-translate="info_desc">
-              necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful.
-          </p>
+              Ratm Alaibtikar
+            </h4>
+            <p data-translate="start_digital_journey">
+              Start your digital journey with Ratm Alaibtikar – Where 
+              ideas turn into success!
+            </p>
           </div>
         </div>
         <div class="col-md-6 col-lg-2 mx-auto info_col">
           <div class="info_link_box">
             <h4 data-translate="links">
               Links
-          </h4>
-          <div class="info_links">
+            </h4>
+            <div class="info_links">
               <a class="active" href="index.html" data-translate="home">
-                  Home
+                Home
               </a>
               <a class="" href="about.html" data-translate="about">
-                  About
+                About
               </a>
               <a class="" href="service.html" data-translate="services">
-                  Services
+                Services
               </a>
               <a class="" href="why.html" data-translate="why_us">
-                  Why Us
+                Why Us
               </a>
-          </div>
+              <a class="" href="our-mission.html" data-translate="our_mission">
+                Our Mission
+              </a>
+              <a class="" href="contact-us.html" data-translate="contact_us">
+                Contact Us
+              </a>
+            </div>
           </div>
         </div>
         <div class="col-md-6 col-lg-3 info_col ">
           <h4 data-translate="subscribe">
             Subscribe
-        </h4>
-        <form action="#">
+          </h4>
+          <form action="#">
             <input type="text" placeholder="Enter email" data-translate-placeholder="enter_email" />
             <button type="submit" data-translate="subscribe_btn">
-                Subscribe
+              Subscribe
             </button>
-        </form>
+          </form>
         </div>
       </div>
     </div>
@@ -517,7 +548,7 @@
 
   <section class="footer_section">
     <div class="container">
-      <p  data-translate="copyright">
+      <p data-translate="copyright">
         &copy; <span id="displayYear"></span> All Rights Reserved By
         <a href="#"> Ratm Alaibtikar</a>
       </p>

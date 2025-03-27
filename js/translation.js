@@ -2,75 +2,128 @@
 const translations = {
     AR: {
         welcome: "مرحبا",
+        welcome_text: "مرحباً بكم في عالم الإبداع والابتكار",
         description: "هذا نص تجريبي",
         welcome: "مرحبا",
         description: "هذا نص تجريبي",
         Home: "بيت",
         About: "معلومات عنا",
         Services: "خدمات",
-        WhyUs: "لماذا نحن؟",
-        digital_marketing: "التسويق الرقمي  والإعلان",
-        digital_marketing_desc: "التسويق الرقمي والإعلان - استراتيجيات لتعزيز ظهورك وزيادة المبيعات",
+        WhyUs: "لماذا نحن",
         read_more: "اقرأ المزيد",
-        branding: "العلامة التجارية <br> والهوية البصرية",
-        branding_desc: "العلامة التجارية والهوية البصرية - تصميم هويات فريدة تبرز",
-        digital_platform: "تطوير المنصات الرقمية",
-        digital_platform_desc: "تطوير المنصات الرقمية - إنشاء مواقع وتطبيقات تعزز وجودك الرقمي",
         our_services: "خدماتنا",
         digital_journey: "ابدأ رحلتك الرقمية مع رتم الابتكار!",
-        digital_marketing: "التسويق الرقمي والإعلان",
-        marketing_desc: "استراتيجيات لتعزيز ظهورك وزيادة المبيعات",
-        data_analytics: "تحليل البيانات والتسويق الاستراتيجي",
-        analytics_desc: "تقديم رؤى لاتخاذ قرارات أفضل",
-        event_management: "إدارة الفعاليات والعلاقات العامة",
-        event_desc: "إنشاء فعاليات لا تُنسى وروابط ذات معنى",
-        view_all: "عرض الكل",
-        about_us: "من نحن",
-        about_desc: "في رتم الابتكار، نحول الأفكار إلى تجارب رقمية استثنائية. من خلال دمج التسويق الرقمي والتصميم الإبداعي وتطوير المنصات الرقمية، نساعدك على تحقيق أهدافك بطرق مبتكرة.",
-        why_choose: "لماذا تختار رتم الابتكار؟",
-        marketing_solutions: "✔ حلول تسويقية شاملة لتعزيز رؤية علامتك التجارية",
-        creativity: "✔ إبداع بلا حدود في التصميم والهوية البصرية",
-        tech_advancements: "✔ تقنيات متطورة لبناء مواقع ويب وتطبيقات متميزة",
-        data_strategies: "✔ استراتيجيات تعتمد على البيانات لتحقيق نجاح مستدام",
-        event_management: "✔ إدارة الفعاليات والعلاقات العامة التي تترك انطباعًا دائمًا",
-        read_more: "اقرأ المزيد",
-        why_choose_us: "لماذا تختار نحن",
-        marketing_solutions: "حلول تسويقية شاملة",
+        digital_marketing: "تطويرمنصاترقميةمتكاملة",
+        marketing_desc: "مواقع و تطبيقات تصنع فرق في ظهورك الرقمي",
+        data_analytics: "بناءوتصميمالهويةالبًصرية",
+        analytics_desc: "هوية تعبر عن تميزك في السوق",
+        event_desc: "استراتيجيات تعزز انتشارك و ترفع مبيعاتك",
+        about_description: "رتم الابتكار للحلول الرقمية هي مبادرة مبتكرة متخصصة تقدم خدمات  رقميةمتكاملة   تجمع بين الإبداع والتكنولوجيا، لنساعد الشركات والأفراد  في بناءهويتهمالرقميةوتعزيزحضورهمفيالسوق . فريقنا  المحترف يعمل بشغف لضمان تقديم حلول مخصصة تلبي تطلعات عملائنا",
+        about_creativity: "✔ إبداع لاحدودله في التصميم والهوية البصرية",
         marketing_solutions_desc: "عزز رؤية علامتك التجارية من خلال إبداعنا اللامحدود في التصميم والهوية البصرية. نستخدم أحدث التقنيات لإنشاء مواقع ويب وتطبيقات استثنائية، مما يضمن استراتيجيات تعتمد على البيانات لتحقيق نجاح مستدام. خدماتنا في إدارة الفعاليات والعلاقات العامة تترك انطباعًا دائمًا.",
-        creativity_tech: "إطلاق العنان للإبداع اللامحدود والتكنولوجيا المتقدمة",
-        creativity_tech_desc: "في رتم الابتكار للحلول الرقمية، نؤمن بأن الإبداع لا حدود له. يعمل فريقنا من المصممين الموهوبين على ابتكار هويات بصرية فريدة وجذابة تتماشى مع جوهر علامتك التجارية. نحن ندرك أن الحضور البصري القوي ضروري للتميز في السوق التنافسية اليوم، ونستغل إبداعنا اللامحدود لجعل رؤيتك حقيقة.",
-        data_strategies_events: "تمكين النجاح من خلال استراتيجيات تعتمد على البيانات وفعاليات لا تُنسى",
-        data_strategies_events_desc: "في رتم الابتكار للحلول الرقمية، ندرك أن النجاح المستدام يعتمد على اتخاذ قرارات مستنيرة. تم تصميم استراتيجياتنا المعتمدة على البيانات لتزويدك برؤى قابلة للتنفيذ تساعد عملك على تحقيق النمو والمرونة. من خلال تحليل اتجاهات السوق وسلوك المستهلك، نساعدك في اتخاذ خيارات استراتيجية تعزز رؤية علامتك التجارية وتضمن نجاحًا طويل الأمد في سوق ديناميكية.",
-        address: "العنوان",
-        location: "الموقع",
-        call: "اتصل +01 1234567890",
-        email: "ratmalaibtikar@gmail.com",
-        info: "معلومات",
         info_desc: "من الضروري، مما يجعل هذا أول منشئ حقيقي على الإنترنت. يستخدم قاموسًا يضم أكثر من 200 كلمة لاتينية، مع مجموعة مختارة.",
-        links: "الروابط",
-        home: "الرئيسية",
         about: "من نحن",
-        services: "الخدمات",
         why_us: "لماذا نحن",
+        copyright: "© 2025 جميع الحقوق محفوظة لشركة راتم الابتكار",
+        Ratm_Alaibtikar:"رتم الابتكار",
+        our_vision: "رؤيتنا",
+        vision_text: "أن نكون الوجهة الرائدة في تقديم  الحلولالرقميةالمبًتكرةوالمتكاملة ، مما يمكن الأفراد والشركات من بناء حضور رقمي قوي  ومستدام في عالم متسارع التطور.",
+        our_mission: "مهمتنا",
+        mission_text: "نهدف إلى إحداثتأثيروفرقحقيقي من خلال خدماتنا الشاملة، التي تشمل:",
+        social_media: "إدارة وسائل التواصل الاجتماعي",
+        ecommerce_design: "التجارة الإلكترونية والتصميم الإبداعي",
+        data_marketing: "استراتيجيات التسويق القائمة على البيانات",
+        latest_tech: "الاستفادة من أحدث التقنيات الرقمية",
+        our_values: "قيمنا الأساسية",
+        creativity: "الإبداع – التفكير خارج الصندوق لتقديم حلول مبتكرة",
+        quality: "الجودة – تقديم خدمات عالمية المستوى",
+        innovation: "الابتكار – استخدام أحدث التقنيات الرقمية",
+        partnership: "الشراكة – بناء علاقات طويلة الأمد قائمة على الثقة",
+        professionalism: "الاحترافية – التركيز على استراتيجيات فعالة ونتائج قابلة للقياس",
+        home: "الصفحة الرئيسية",
+        ratm_alaibtikar: "رتم الابتكار",
+        welcome_text: "مرحبًا بكم في عالم الإبداع والابتكار!",
+        about_us: "من نحن؟",
+        about_desc: "نحن شركة رتم الابتكار، نحول الأفكار إلى تجارب رقمية استثنائية، حيث ندمج التسويق الرقمي، التصميم الإبداعي، وتطوير المنصات الرقمية لنساعدك على تحقيق أهدافك بطرق مبتكرة.",
+        why_choose: "لماذا رتم الابتكار؟",
+        marketing_solutions: "✔ حلول تسويقية متكاملة تعزز ظهور علامتك التجارية",
+        creativity: "✔ إبداع لا حدود له في التصميم والهوية البصرية",
+        tech_advancements: "✔ تقنيات حديثة لبناء مواقع وتطبيقات استثنائية",
+        data_strategies: "✔ تحليل واستراتيجيات تحقق لك نجاحًا مستدامًا",
+        event_management: "✔ تنظيم فعاليات وعلاقات عامة تترك بصمة لا تُنسى",
+        event_management_text:" التسويقالرقميوالإعلانات",
+        our_vision: "رؤيتنا",
+        vision_desc: "أن نكون الوجهة الرائدة في تقديم الحلول الرقمية المبتكرة والمتكاملة، مما يمكن الأفراد والشركات من بناء حضور رقمي قوي ومستدام في عالم متسارع التطور.",
+        our_mission: "رسالتنا",
+        mission_desc: "نهدف إلى إحداث تأثير وفرْق حقيقي من خلال خدماتنا الشاملة، التي تشمل:",
+        social_media_management: " إدارة وسائل التواصل الاجتماعي",
+        ecommerce_design: " تصميم المتاجر الإلكترونية والتصاميم الإبداعية",
+        data_driven_marketing: " استراتيجيات تسويقية تعتمد على البيانات",
+        cutting_edge_tech: " استخدام أحدث التقنيات في الحلول الرقمية",
+        digital_marketing: "التسويق الرقمي والإعلان",
+        digital_marketing_desc: "استراتيجيات لتعزيز ظهورك وزيادة مبيعاتك",
+        branding: "العلامات التجارية والهوية البصرية",
+        branding_desc: "تصميم هويات فريدة تميز علامتك التجارية",
+        digital_platform: "تطوير المنصات الرقمية",
+        digital_platform_desc: "إنشاء مواقع إلكترونية وتطبيقات تعزز وجودك الرقمي",
+        read_more: "اقرأ المزيد",
+        view_all: "عرض الكل",
+        services: "الخدمات",
+        why_choose_us: "لماذارتمالابتكار؟",
+        creativity_tech: "إطلاق العنان للإبداع اللامحدود والتكنولوجيا الحديثة",
+        creativity_tech_desc: "نؤمن في رتم الابتكار بأن الإبداع لا حدود له. فريقنا من المصممين الموهوبين ملتزم بصياغة هويات بصرية مميزة تتماشى مع جوهر علامتك التجارية.",
+        data_strategies_events: "تمكين النجاح من خلال استراتيجيات تعتمد على البيانات وفعاليات مميزة",
+        data_strategies_events_desc: "نقدم استراتيجيات تعتمد على البيانات لمنحك رؤى قابلة للتنفيذ تقود عملك نحو النمو والنجاح المستدام.",
         subscribe: "اشترك",
         enter_email: "أدخل البريد الإلكتروني",
-        subscribe_btn: "اشترك",
-        copyright: "© 2025 جميع الحقوق محفوظة لشركة راتم الابتكار",
-        // Ratm_Alaibtikar:"رتم الابتكار"
+        subscribe_btn: "اشترك الآن",
+        address: "العنوان",
+        location: "الموقع",
+        call: "اتصل بنا",
+        email: "البريد الإلكتروني",
+        info: "معلومات",
+        links: "روابط",
+        our_core_values: "قيمناالأساسية",
+        creativity: "الإبداع",
+        creativity_desc: "التفكير خارج الصندوق لنصنع أفكار غير تقليدية",
+        quality: "الجودة",
+        quality_desc: "نقدم خدمات بمعايير عالمية",
+        innovation: "الابتكار",
+        innovation_desc: "نستخدم أحدث التقنيات الرقمية",
+        partnership: "الشراكة",
+        partnership_desc: "نبني علاقات ثقة طويلة الأمد مع عملائنا",
+        professionalism: "الاحترافية",
+        professionalism_desc: "نركز على النتائج والاستراتيجيات الفعالة",
+        our_valuess: "قيمنا",
+        our_partners: "شركاؤنا",
+        partners_desc: "نحن نفخر بشراكاتنا، حيث نعمل معAا لتحقيق نجاحات مستدامة",
+        contact_us: "اتصل بنا",
+        your_name: "اسمك",
+        your_email: "بريدك الإلكتروني",
+        your_message: "رسالتك",
+        send_message: "أرسل الرسالة",
+        start_digital_journey: "ابدأ رحلتك الرقمية مع رتمالابتكار حيث تتحول الأفكار إلى نجاحات",
+        Your_Name: "اسمك",
+        Your_Email: "البريد الإلكتروني الخاص بك"
     }
 };
 
+// Toggle Dropdown
+function toggleDropdown(event) {
+    event.stopPropagation(); // Prevents dropdown from closing immediately
+    document.querySelector(".options").classList.toggle("show");
+}
+
+// Switch Language Function
 function switchLanguage(lang) {
     document.querySelectorAll("[data-translate]").forEach(element => {
         const key = element.getAttribute("data-translate");
-
-        // Use Arabic translation if available, otherwise use default (EN_US) text
+        
         element.textContent = lang === "AR" && translations.AR[key] 
             ? translations.AR[key] 
             : element.dataset.defaultText;
     });
 
-    // Handle placeholders separately
     document.querySelectorAll("[data-translate-placeholder]").forEach(element => {
         const key = element.getAttribute("data-translate-placeholder");
         element.setAttribute("placeholder", 
@@ -80,38 +133,42 @@ function switchLanguage(lang) {
         );
     });
 
-    // Apply RTL for Arabic
     document.body.classList.toggle("rtl", lang === "AR");
 
-    // Save preference in localStorage
+    const flagImg = document.getElementById("selected-flag");
+    const langText = document.getElementById("selected-lang");
+
+    if (lang === "AR") {
+        flagImg.src = "images/arabic-flag.png";
+        langText.textContent = "العربية";
+    } else {
+        flagImg.src = "images/Us-flag.png";
+        langText.textContent = "English";
+    }
+
     localStorage.setItem("selectedLang", lang);
+
+    document.querySelector(".options").classList.remove("show");
 }
 
-// Event listener for language switch
 document.addEventListener("DOMContentLoaded", function () {
-    // Ensure default is EN_US if no preference exists
-    let savedLang = localStorage.getItem("selectedLang") || "EN_US";
-    localStorage.setItem("selectedLang", savedLang);
+    const savedLang = localStorage.getItem("selectedLang") || "EN_US";
 
-    // Store the default (EN_US) text as data attributes
     document.querySelectorAll("[data-translate]").forEach(element => {
         element.dataset.defaultText = element.textContent;
     });
 
-    // Store default placeholders
     document.querySelectorAll("[data-translate-placeholder]").forEach(element => {
         element.dataset.defaultPlaceholder = element.getAttribute("placeholder");
     });
 
-    // Set the dropdown to the correct language
-    const languageDropdown = document.querySelector("select");
-    if (languageDropdown) {
-        languageDropdown.value = savedLang;
-        languageDropdown.addEventListener("change", function () {
-            switchLanguage(this.value);
-        });
-    }
-
-    // Apply the default language
     switchLanguage(savedLang);
+
+    document.querySelector(".selected-option").addEventListener("click", toggleDropdown);
+});
+
+document.addEventListener("click", function (event) {
+    if (!document.querySelector(".custom-select").contains(event.target)) {
+        document.querySelector(".options").classList.remove("show");
+    }
 });

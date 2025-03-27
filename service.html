@@ -31,7 +31,7 @@
     <header class="header_section">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.html">
+          <a data-translate="Ratm_Alaibtikar" class="navbar-brand" href="index.html">
             <span>
               Ratm Alaibtikar
             </span>
@@ -56,19 +56,22 @@
               <li class="nav-item">
                 <a data-translate="WhyUs" class="nav-link" href="#why_us">Why Us</a>
               </li>
-              <!-- <li class="nav-item">
-                <a class="nav-link" href="#"> <i class="fa fa-user" aria-hidden="true"></i> Login</a>
-              </li> -->
-              <form class="form-inline">
-                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
-                  <i class="fa fa-search" aria-hidden="true"></i>
-                </button>
-              </form>
               <li class="nav-item">
-                <select>
-                  <option value="EN_US">English</option>
-                  <option value="AR">العربية</option>
-                </select>
+                <a data-translate="our_valuess" class="nav-link" href="#our_core_values">Our Values</a>
+              </li>
+              <li class="nav-item custom-select">
+                <div class="selected-option">
+                    <img id="selected-flag" src="images/Us-flag.png" alt="Flag">
+                    <span id="selected-lang">English</span>
+                </div>
+                <ul class="options">
+                    <li onclick="switchLanguage('EN_US')">
+                        <img src="images/Us-flag.png" alt="English Flag"> English
+                    </li>
+                    <li onclick="switchLanguage('AR')">
+                        <img src="images/arabic-flag.png" alt="Arabic Flag"> العربية
+                    </li>
+                </ul>
               </li>
             </ul>
           </div>
@@ -160,28 +163,28 @@
           <div class="info_contact">
             <h4 data-translate="address">
               Address
-          </h4>
-          <div class="contact_link_box">
+            </h4>
+            <div class="contact_link_box">
               <a href="">
-                  <i class="fa fa-map-marker" aria-hidden="true"></i>
-                  <span data-translate="location">
-                      Location
-                  </span>
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span data-translate="location">
+                  Location
+                </span>
               </a>
               <a href="">
-                  <i class="fa fa-phone" aria-hidden="true"></i>
-                  <span data-translate="call">
-                      Call +01 1234567890
-                  </span>
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span data-translate="call">
+                  Call +01 1234567890
+                </span>
               </a>
               <a href="">
-                  <i class="fa fa-envelope" aria-hidden="true"></i>
-                  <span data-translate="email">
-                      ratmalaibtikar@gmail.com
-                  </span>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span data-translate="email">
+                  ratmalaibtikar@gmail.com
+                </span>
               </a>
-          </div>
-          
+            </div>
+
           </div>
           <div class="info_social">
             <a href="">
@@ -201,44 +204,51 @@
         <div class="col-md-6 col-lg-3 info_col">
           <div class="info_detail">
             <h4 data-translate="info">
-              Info
-          </h4>
-          <p data-translate="info_desc">
-              necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful.
-          </p>
+              Ratm Alaibtikar
+            </h4>
+            <p data-translate="start_digital_journey">
+              Start your digital journey with Ratm Alaibtikar – Where 
+              ideas turn into success!
+            </p>
           </div>
         </div>
         <div class="col-md-6 col-lg-2 mx-auto info_col">
           <div class="info_link_box">
             <h4 data-translate="links">
               Links
-          </h4>
-          <div class="info_links">
+            </h4>
+            <div class="info_links">
               <a class="active" href="index.html" data-translate="home">
-                  Home
+                Home
               </a>
               <a class="" href="about.html" data-translate="about">
-                  About
+                About
               </a>
               <a class="" href="service.html" data-translate="services">
-                  Services
+                Services
               </a>
               <a class="" href="why.html" data-translate="why_us">
-                  Why Us
+                Why Us
               </a>
-          </div>
+              <a class="" href="our-mission.html" data-translate="our_mission">
+                Our Mission
+              </a>
+              <a class="" href="contact-us.html" data-translate="contact_us">
+                Contact Us
+              </a>
+            </div>
           </div>
         </div>
         <div class="col-md-6 col-lg-3 info_col ">
           <h4 data-translate="subscribe">
             Subscribe
-        </h4>
-        <form action="#">
+          </h4>
+          <form action="#">
             <input type="text" placeholder="Enter email" data-translate-placeholder="enter_email" />
             <button type="submit" data-translate="subscribe_btn">
-                Subscribe
+              Subscribe
             </button>
-        </form>
+          </form>
         </div>
       </div>
     </div>
